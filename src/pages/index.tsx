@@ -8,7 +8,7 @@ import { stripe } from "../services/Stripe";
 interface HomeProps {
   product: {
     priceId: string;
-    amount: number;
+    amount: string;
   };
 }
 // Conteudo o mesmo para todas as pessoas.
@@ -44,7 +44,7 @@ export default function Home({ product }: HomeProps) {
             Saiba mais sobre o ecossistema Javascript <br />
             <span>por apenas {product.amount} MZN por mes</span>
           </p>
-          <SubscribeButton priceId={product.priceId} />
+          <SubscribeButton />
         </section>
         <img src="/avatar.svg" alt="girl coding" />
       </main>

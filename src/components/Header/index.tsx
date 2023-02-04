@@ -8,10 +8,10 @@ export function Header() {
       <div className={styles.headerContent}>
         <img src="/logo.svg" alt="logotipo" />
         <nav>
-          <ActiveLink href="/" activeClassName={styles.active} prefetch>
+          <ActiveLink href="/" activeClassName={styles.active}>
             Home
           </ActiveLink>
-          <ActiveLink href="/posts" activeClassName={styles.active} prefetch>
+          <ActiveLink href="/posts" activeClassName={styles.active}>
             Posts
           </ActiveLink>
         </nav>
