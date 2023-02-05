@@ -57,7 +57,6 @@ export const getServerSideProps: GetServerSideProps = async ({
 };
 
 function Post({ post }: IPostProps) {
-  console.log(post);
   return (
     <>
       <Head>
@@ -68,7 +67,7 @@ function Post({ post }: IPostProps) {
 
       <main className={styles.container}>
         <article className={styles.post}>
-          <h1>{post?.title} ds</h1>
+          <h1>{post?.title}</h1>
           <time>{post?.updatedAt}</time>
 
           <div

@@ -44,7 +44,7 @@ export default function Home({ product }: HomeProps) {
             Saiba mais sobre o ecossistema Javascript <br />
             <span>por apenas {product.amount} MZN por mes</span>
           </p>
-          <SubscribeButton />
+          {/* <SubscribeButton /> */}
         </section>
         <img src="/avatar.svg" alt="girl coding" />
       </main>
