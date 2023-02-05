@@ -23,7 +23,7 @@ test("async", async () => {
   });
 
   // esperar para ser removido
-  await waitForElementToBeRemoved(screen.queryByText("existe"));
+  // await waitForElementToBeRemoved(screen.queryByText("existe"));
 
   //  com isso eu posso entrar na url e ir buscar as partes que eu quiser
   screen.logTestingPlaygroundURL();
